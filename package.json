@@ -1,0 +1,29 @@
+{
+  "name": "api_groceries_mvc_ex",
+  "version": "1.0.0",
+  "description": "Actividad que se desarrollo en la materia de aplicaciones moviles multiplataforma",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelJesus13/Api_Groceries_Mvc_Ex.git"
+  },
+  "keywords": [],
+  "author": "T.E.C Angel de Jesus Baños Tellez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelJesus13/Api_Groceries_Mvc_Ex/issues"
+  },
+  "homepage": "https://github.com/angelJesus13/Api_Groceries_Mvc_Ex#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
